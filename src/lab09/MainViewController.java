@@ -20,7 +20,7 @@ import javafx.scene.layout.Pane;
 
 /**
  * FXML Controller class
- *
+ * https://github.com/QuentinProulx/Lab09
  * @author 6324569
  */
 public class MainViewController implements Initializable {
