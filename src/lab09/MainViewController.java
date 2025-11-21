@@ -67,9 +67,7 @@ public class MainViewController implements Initializable {
         closeItem.setDisable(true);
         
         newItem.setOnAction(e -> {
-            System.out.println("New has been pressed");
-            closeItem.setDisable(false);
-            newItem.setDisable(true);
+            handleNew();
         });
         
         openItem.setOnAction(e -> {
@@ -83,7 +81,7 @@ public class MainViewController implements Initializable {
         });
         
         gridItem.setOnAction(e -> {
-        
+            handleGrid();
         });
         
         smallItem.setOnAction(e -> {
